@@ -14,7 +14,7 @@ int main()
 
     cout << "Billed Amount =\t" << total << endl;
     cout << "Discount =\t" << discount << endl;
-    cout << "Final Bill Amount =\t" << (total - discount) << endl;
+    cout << "Discounted Bill =\t" << (total - discount) << endl;
 
     return 0;
 }
