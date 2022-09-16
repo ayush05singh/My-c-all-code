@@ -2,11 +2,12 @@
 using namespace std;
 int main()
 {
-    int a, i = 1;
-    cout << "Enter 'a' =\t";
-    cin >> a;
+    // int b;
+    // cout << "Enter 'b' =\t";
+    // cin >> b;
 
-    for (i = a; i <= 1; i--)
+    int i = 1;
+    for (; i >= 1;)
     {
         cout << i << endl;
     }
