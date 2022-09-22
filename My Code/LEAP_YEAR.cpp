@@ -23,4 +23,6 @@ int main()
     else
 
         cout << "Sorry! no leap year" << endl;
+    system("pause");
+    return 0;
 }
