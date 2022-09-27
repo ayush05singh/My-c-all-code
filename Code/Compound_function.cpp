@@ -1,16 +1,15 @@
 #include <iostream>
-#include<math.h>
+#include <math.h>
 using namespace std;
 int main()
 {
 
 	int sum = 25;
 	int a;
-	
-	cout <<"Enter 'a'";
-	cin>>a;
-	sum+=a;
-	cout<<"Sum"<<sum;
+
+	cout << "Enter 'a'  =\t";
+	cin >> a;
+	sum += a;
+	cout << "Sum  =\t" << sum;
 	return 0;
-	
 }
