@@ -3,15 +3,16 @@ using namespace std;
 int main()
 {
     int a, b = 1;
-    cout << "Table of\t";
+    cout << "Table of  =\t";
     cin >> a;
 
     while (b <= 10)
     {
         ;
-        cout << a << "\t"
+        cout << a << " "
              << "x"
-             << "\t" << b << "\t" << a * b << endl;
+             << " " << b << " "
+             << " " << a * b << endl;
         b++;
     }
     return 0;
